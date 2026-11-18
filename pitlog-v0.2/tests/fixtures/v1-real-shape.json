@@ -1,0 +1,207 @@
+{
+  "schemaVersion": 1,
+  "vehicles": [
+    {
+      "id": "mwmiwwwin2t2s",
+      "createdAt": "2026-11-18T19:37:49.458Z",
+      "year": "2012",
+      "make": "Toyota",
+      "model": "Tacoma",
+      "trim": "TRD Off-Road 4.0L V6",
+      "nickname": "",
+      "odometer": 242100,
+      "unit": "km",
+      "oilIntervalDist": 8000,
+      "oilIntervalMonths": 6,
+      "number": "01",
+      "color": "#e8392b"
+    },
+    {
+      "id": "mwmiwxan9ulhz",
+      "createdAt": "2026-11-18T19:37:49.967Z",
+      "year": "2019",
+      "make": "Subaru",
+      "model": "WRX",
+      "trim": "",
+      "nickname": "WRX",
+      "odometer": 52000,
+      "unit": "mi",
+      "oilIntervalDist": 5000,
+      "oilIntervalMonths": 6,
+      "number": "02",
+      "color": "#f28a1c"
+    },
+    {
+      "id": "mwmiwxls6sn0s",
+      "createdAt": "2026-11-18T19:37:50.368Z",
+      "year": "2008",
+      "make": "Ford",
+      "model": "F-250",
+      "trim": "",
+      "nickname": "Work truck",
+      "odometer": 301000,
+      "unit": "km",
+      "oilIntervalDist": 8000,
+      "oilIntervalMonths": 6,
+      "number": "03",
+      "color": "#f6c431"
+    },
+    {
+      "id": "mwmiwxvj2412r",
+      "createdAt": "2026-11-18T19:37:50.719Z",
+      "year": "2004",
+      "make": "Ford",
+      "model": "Ranger",
+      "trim": "",
+      "nickname": "",
+      "odometer": 188000,
+      "unit": "km",
+      "oilIntervalDist": 8000,
+      "oilIntervalMonths": 6,
+      "number": "04",
+      "color": "#19b5a5"
+    }
+  ],
+  "services": [
+    {
+      "id": "mwmiwy8gu1mv5",
+      "createdAt": "2026-11-18T19:37:51.184Z",
+      "vehicleId": "mwmiwwwin2t2s",
+      "type": "oil",
+      "date": "2026-01-12",
+      "odometer": 229100,
+      "parts": [
+        {
+          "name": "Mobil 1 5W-30",
+          "partNo": "",
+          "qty": 6
+        },
+        {
+          "name": "Oil filter",
+          "partNo": "90915-YZZD1",
+          "qty": 1
+        }
+      ],
+      "cost": 84.37,
+      "shop": "DIY",
+      "notes": ""
+    },
+    {
+      "id": "mwmiwylffcmtp",
+      "createdAt": "2026-11-18T19:37:51.651Z",
+      "vehicleId": "mwmiwwwin2t2s",
+      "type": "oil",
+      "date": "2026-07-20",
+      "odometer": 236900,
+      "parts": [
+        {
+          "name": "Mobil 1 5W-30",
+          "partNo": "",
+          "qty": 6
+        },
+        {
+          "name": "Oil filter",
+          "partNo": "90915-YZZD1",
+          "qty": 1
+        }
+      ],
+      "cost": "",
+      "shop": "DIY",
+      "notes": "Drain plug 30 ft-lb"
+    },
+    {
+      "id": "mwmiwyxfw9aam",
+      "createdAt": "2026-11-18T19:37:52.083Z",
+      "vehicleId": "mwmiwwwin2t2s",
+      "type": "repair",
+      "date": "2026-09-02",
+      "odometer": 239800,
+      "parts": [
+        {
+          "name": "Rear diff pinion seal",
+          "partNo": "90311-T0089",
+          "qty": 1
+        },
+        {
+          "name": "Gear oil 75W-85",
+          "partNo": "",
+          "qty": 3
+        }
+      ],
+      "cost": 145,
+      "shop": "Hub City Auto",
+      "notes": ""
+    },
+    {
+      "id": "mwmiwz76ztwlw",
+      "createdAt": "2026-11-18T19:37:52.434Z",
+      "vehicleId": "mwmiwwwin2t2s",
+      "type": "tire-rotation",
+      "date": "2026-09-02",
+      "odometer": 239800,
+      "parts": [],
+      "cost": "",
+      "shop": "",
+      "notes": ""
+    },
+    {
+      "id": "mwmiwziqewcw2",
+      "createdAt": "2026-11-18T19:37:52.850Z",
+      "vehicleId": "mwmiwxan9ulhz",
+      "type": "oil",
+      "date": "2026-08-02",
+      "odometer": 51200,
+      "parts": [
+        {
+          "name": "Motul 5W-30",
+          "partNo": "",
+          "qty": 5
+        },
+        {
+          "name": "Oil filter",
+          "partNo": "15208AA170",
+          "qty": 1
+        }
+      ],
+      "cost": 92.5,
+      "shop": "",
+      "notes": ""
+    },
+    {
+      "id": "mwmiwztff3xar",
+      "createdAt": "2026-11-18T19:37:53.235Z",
+      "vehicleId": "mwmiwxls6sn0s",
+      "type": "tire-swap",
+      "date": "2026-10-28",
+      "odometer": 300800,
+      "parts": [
+        {
+          "name": "Winter tires",
+          "partNo": "",
+          "qty": 4
+        }
+      ],
+      "cost": 120,
+      "shop": "Kal Tire",
+      "notes": ""
+    },
+    {
+      "id": "mwmix02oaueka",
+      "createdAt": "2026-11-18T19:37:53.568Z",
+      "vehicleId": "mwmiwxls6sn0s",
+      "type": "other",
+      "date": "2026-10-29",
+      "odometer": "",
+      "parts": [
+        {
+          "name": "Trailer brake controller",
+          "partNo": "P3",
+          "qty": 1
+        }
+      ],
+      "cost": "",
+      "shop": "",
+      "notes": ""
+    }
+  ]
+}
