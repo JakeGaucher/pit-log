@@ -15,11 +15,13 @@
   <link rel="stylesheet" href="app.css">
 </head>
 <body>
+  <div id="fake-banner" class="fake-banner" hidden>TEST DATE: <b id="fake-banner-date"></b> <button data-action="dv-date-clear">Use real date</button></div>
   <div class="app">
     <header class="topbar">
       <div class="logo">
         <div class="stripes"><i></i><i></i><i></i></div>
         <div class="logo-text racing">Pit<b>Log</b></div>
+        <span class="pro-badge" id="pro-flag" hidden>PRO</span>
       </div>
       <div class="topdate racing num" id="topdate"></div>
     </header>
@@ -49,9 +51,14 @@
     </nav>
   </div>
 
+  <div id="update-banner" class="update-banner" hidden>
+    <span><b>New version available</b></span><button class="btn sm primary" data-action="apply-update">Reload</button>
+  </div>
   <div id="sheet-root"></div>
+  <div id="print-root"></div>
   <input type="file" id="import-file" accept="application/json,.json" hidden>
 
+  <script src="core.js"></script>
   <script src="app.js"></script>
 </body>
 </html>
